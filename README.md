@@ -9,7 +9,6 @@
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
-- [📺 Video presentation](#Video-presentation)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
@@ -34,9 +33,8 @@
 # 📖 [Math Magicians] <a name="about-project"></a>
 Is a calculator project in React Library
 
-**[Capstone Project 2]** is based on React.
+**[Math Magicians]** is based on React.
 
-# 📺[ Video presentation](Not available right now) <a name="Video-presentation"></a> 
 
 ## 🛠 Built With <a name="built-with"></a>
 
