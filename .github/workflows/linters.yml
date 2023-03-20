@@ -8,7 +8,7 @@ env:
 jobs:
   lighthouse:
     name: Lighthouse
-    runs-on: ubuntu-22.04
+    runs-on: windows
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
