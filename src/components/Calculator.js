@@ -1,9 +1,10 @@
 import './styles.css';
 import React from 'react';
+import Output from './output';
 
 const Calculator = () => (
   <div className="calculator-grid">
-    <div className="output">0</div>
+    <Output />
     <button type="button">AC</button>
     <button type="button">+/-</button>
     <button type="button">%</button>
