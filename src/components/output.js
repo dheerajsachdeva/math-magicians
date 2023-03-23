@@ -1,7 +1,12 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-const Output = () => (
-  <div className="output">0</div>
+const Output = ({ output }) => (
+  <div className="output">{output}</div>
 );
+
+Output.propTypes = {
+  output: PropTypes.string.isRequired,
+};
 
 export default Output;
