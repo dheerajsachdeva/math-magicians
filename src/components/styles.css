@@ -45,3 +45,22 @@ body {
   justify-content: flex-end;
   padding-right: 7px;
 }
+
+.quote {
+  margin-top: 30px;
+  margin-left: 5%;
+  font-size: large;
+  color: white;
+  border-radius: 10px;
+  width: auto;
+  padding: 10px 20px;
+  background-image: linear-gradient(to right, rgba(247, 4, 215, 0.705), rgba(0, 0, 255, 0.733));
+  -webkit-box-shadow: 1px 2px 8px 0 rgba(166, 34, 199, 0.9);
+}
+
+.loading,
+.error {
+  font-size: larger;
+  margin-left: 5%;
+  margin-top: 30px;
+}
