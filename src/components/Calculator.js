@@ -2,7 +2,6 @@ import './styles.css';
 import { useState } from 'react';
 import Output from './output';
 import calculate from '../logic/calculate';
-import Quote from './Quote';
 
 const Calculator = () => {
   const [output, setOutput] = useState(0);
@@ -12,7 +11,10 @@ const Calculator = () => {
   };
 
   return (
-    <>
+    <div className="calculator-content">
+      <div className="calculator-heading">
+        {'Let\'s do some Math!'}
+      </div>
       <div className="calculator-grid">
         <Output output={output.next || output.total || 0} />
         <button onClick={handleclick} type="button">AC</button>
@@ -35,8 +37,7 @@ const Calculator = () => {
         <button onClick={handleclick} type="button">.</button>
         <button onClick={handleclick} className="btn-orange" type="button">=</button>
       </div>
-      <Quote />
-    </>
+    </div>
   );
 };
 
