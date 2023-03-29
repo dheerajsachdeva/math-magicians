@@ -118,6 +118,7 @@ You can deploy this project using: git hub pages on your repository.
 
 ## 👥 Authors <a name="DHEERAJ SACHDEVA"></a>
 ## 👥 Dheeraj Sachdeva <a name="DHEERAJ SACHDEVA"></a>
+## 👥 kevin Okoth <a name="kevin Okoth"></a>
 
 
 - GitHub: [@githubhandle](https://github.com/dheerajsachdeva)
