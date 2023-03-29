@@ -5,12 +5,64 @@
 body {
   margin: 0;
   padding: 0;
+  background-image: linear-gradient(to right, rgba(247, 4, 215, 0.705), rgba(0, 0, 255, 0.733));
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.navbar h1 {
+  color: white;
+  margin-left: 5%;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  margin-right: 10%;
+}
+
+.navbar ul li a {
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar ul li a:hover {
+  cursor: pointer;
+  color: pink;
+}
+
+.home {
+  font-size: 1.5rem;
+  margin-left: 5%;
+  width: 90%;
+  text-align: left;
+  margin-top: 5%;
+  color: white;
+}
+
+.calculator-content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.calculator-heading {
+  color: white;
+  font-size: 3rem;
+  width: 40%;
+  margin-top: 30px;
 }
 
 .calculator-grid {
+  width: 50%;
   display: grid;
   margin-top: 3rem;
-  margin-left: 5%;
   grid-template-columns: repeat(4, 9rem);
   grid-template-rows: minmax(5rem, auto) repeat(5, 5rem);
 }
@@ -48,13 +100,14 @@ body {
 
 .quote {
   margin-top: 30px;
-  margin-left: 5%;
+  width: 80%;
+  text-align: center;
+  margin-left: 10%;
   font-size: large;
   color: white;
   border-radius: 10px;
-  width: auto;
-  padding: 10px 20px;
-  background-image: linear-gradient(to right, rgba(247, 4, 215, 0.705), rgba(0, 0, 255, 0.733));
+  padding: 50px 20px;
+  background-image: linear-gradient(to right, rgba(192, 84, 178, 0.705), rgba(64, 64, 165, 0.733));
   -webkit-box-shadow: 1px 2px 8px 0 rgba(166, 34, 199, 0.9);
 }
 
