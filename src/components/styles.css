@@ -63,8 +63,6 @@ body {
   width: 50%;
   display: grid;
   margin-top: 3rem;
-
-  /* margin-left: 5%; */
   grid-template-columns: repeat(4, 9rem);
   grid-template-rows: minmax(5rem, auto) repeat(5, 5rem);
 }

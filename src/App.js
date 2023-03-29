@@ -1,4 +1,3 @@
-// eslint-disable-next-line
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Calculator from './components/Calculator';
 import Home from './components/Home';
