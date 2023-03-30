@@ -36,7 +36,7 @@ const Quote = () => {
     <>
       <div>{loading}</div>
       <div>{error}</div>
-      <div className="quote">
+      <div data-testid="quote-test" className="quote">
         Quote :
         {data.quote}
         {' '}
