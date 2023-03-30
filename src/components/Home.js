@@ -2,7 +2,7 @@ import React from 'react';
 
 const Home = () => (
   <div className="home">
-
+    <h2 className="home-title">Welcome to our page!</h2>
     <p>
       A simple to use calculator with an appealing user interface.
       A virtual calculator built with React is another good project idea
